@@ -1,0 +1,20 @@
+// Strings
+testFuncString1 = upper("test function")
+testFuncString2 = lower("TEST FUNCTION")
+testFuncString3 = append("test", " function")
+arr1 = ["test", "string", "concat", "function"]
+testFuncString4 = concat(arr1, " ")
+testFuncString5 = length("test function")
+
+// Numerical
+testFuncNumerical1 = power(5, 2)
+testFuncNumerical2 = floor(25, 7)
+testFuncNumerical3 = remainder(10, 3)
+
+// Gate Logic
+testFuncGateLogic1 = and(true, true)
+testFuncGateLogic2 = or(true, false)
+testFuncGateLogic3 = nand(true, true)
+testFuncGateLogic4 = nor(true, true)
+testFuncGateLogic5 = xor(true, false)
+testFuncGateLogic6 = xnor(true, true)

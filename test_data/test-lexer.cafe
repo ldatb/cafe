@@ -1,0 +1,71 @@
+// This is a comment
+str = "string" // Inline comment
+multistr = "multi" \
+           "line" \
+           "string"
+
+number1=2023
+number2 = 3.14159
+trickNumber1 = "2023"
+trickNumber2 = "3.14159"
+
+// These
+// are
+// multiple
+// comments
+
+boolean1 = true
+boolean2= false
+trickBoolean1 = "true"
+trickBoolean2 = "false"
+
+array1 =["just", "strings"]
+array2 = ["strings", 10, 1.0001, "and", false, "other", "types"]
+array3 = [
+    "multi",
+    123,
+    "line",
+    false,
+    "array"
+]
+trickArray = "[this is to trick an array]"
+
+block1 {
+}
+
+block2 {
+    blockString = "block string"
+    blockInt = 1234
+    blockFloat = 10.10
+    blockBool = false
+	blockArray = ["this", 10, "is", false, "an", "array", "inside", false, "of", "a", "block"]
+}
+
+block3 {} // Comment
+
+block4 {
+    nested1 {
+        blockNestedString = "block string"
+        blockNestedInt = 1234
+        blockNestedFloat = 10.10
+        blockNestedBool = false
+        blockNestedArray = ["this", 10, "is", false, "an", "array", "inside", false, "of", "a", "block"]
+    }
+}
+
+arith1 = 10 + 10
+arith2 = 10-8
+arith3 = 1 * 4
+arith4 = 10/ 10
+
+compare1 = 10 == 20
+compare2 = 10 != 20
+compare3 = 10 > 20
+compare4 = 10 >= 20
+compare5 = 10 < 20
+compare6 = 10 <= 20
+compare7 = true == true
+compare8 = true != true
+
+condition1 = if compare1 : true ? false // Comment
+condition2 = for array1 ...
